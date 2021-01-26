@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3E9F1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.onglet_accueil {
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-left: 80%;
+    flex: 4;
+}
+
+ul {
+    list-style: none;
+    color: #0F81E3;
+
+}
+
+.peluche {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    padding: 0;
+}
+
+.ours {
+    flex: 4;
+}
+
+
+
