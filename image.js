@@ -74,12 +74,12 @@ requete.open('GET', url);
 requete.responseType = 'json';
 requete.send();
 
-requete.onlead = function() {
+requete.onload = function() {
     if (requete.readyState === XMLHttpRequest.DONE) {
         if (requete.status === 200) {
             let reponse = requete.response;
-            let nounours = reponse[0][4];
-            document.querySelector('ours_1').textContent = nounours;
+            let peluche = reponse[0][4];
+            document.querySelector('ours_1').img = peluche;
         }
     }
 }
