@@ -32,8 +32,17 @@
 // document.body.append(ours_1);
 
 
-let image = ['teddy_1.jpg', 'teddy_2.jpg', 'teddy_3.jpg', 'teddy_4.jpg', 'teddy_5.jpg']
+// let image = ['teddy_1.jpg', 'teddy_2.jpg', 'teddy_3.jpg', 'teddy_4.jpg', 'teddy_5.jpg']
 
-function demarrage() {    
-}
-window.addEventListener("load", demarrage);
+// function demarrage() {    
+// }
+// window.addEventListener("load", demarrage);
+
+
+
+// let url = 'http://localhost:3000/images/teddy_1.jpg';
+
+// function image() {
+//     let img = url;
+//     console.log(img);
+// }
