@@ -13,9 +13,7 @@ header, ul {
 }
 
 img {
-    width: 100px;
-    height: 50px;
-    margin-left: 30px;
+    width: 100%;
 }
 
 .onglet_accueil {
@@ -23,28 +21,32 @@ img {
     font-size: 20px;
     margin-right: 30px;
     margin-left: 80%;
-    flex: 4;
+    width: 50%;
 }
 
 ul {
     list-style: none;
     color: #0F81E3;
+}
 
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .peluche {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 50%;
     margin: auto;
-    padding: 0;
+    width: 50%;
+    box-shadow: 0 0 13px 3px #ccc;
 }
 
-.ours {
-    flex: 4;
-}
+
 
 
 
