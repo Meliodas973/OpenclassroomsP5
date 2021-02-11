@@ -17,6 +17,19 @@ function createTeddy(teddy, index) {
         <h3>${teddy.name}</h3>
         <img src="${teddy.imageUrl}" />
         <h4>${teddy.description}</h4>
-        <p>${teddy.price}</p>
+        <p>${teddy.price / 100 + " euros"}</p>
+
+        <div class="btn">
+            <input class="description" type="button" value="Description">
+            <input class="couleur" type="button" value="Couleur">
+        </div>
     </div>`;
+
 }
+
+document.querySelector('peluche');
+let ours_1 = document.createElement('div');
+
+ours_1.style.marginBottom = "60px";
+
+document.body.append(ours_1);
